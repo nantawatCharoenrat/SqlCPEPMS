@@ -1,3 +1,4 @@
+-- 13
 CREATE TABLE appoint (
     appoint_id Varchar (4) NOT NULL ,
     title Varchar (50) ,
