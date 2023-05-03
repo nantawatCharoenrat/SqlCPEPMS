@@ -1,3 +1,4 @@
+-- 9
 CREATE TABLE file (
     file_num Varchar (4) NOT NULL ,
     file_date Datetime ,

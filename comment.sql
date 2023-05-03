@@ -1,3 +1,4 @@
+-- 10
 CREATE TABLE comments (
     teacher_id Varchar (13) ,
     project_id Varchar (4) ,

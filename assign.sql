@@ -1,3 +1,4 @@
+-- 11
 CREATE TABLE assign (
     assign_id Varchar (6) NOT NULL ,
     date_post Datetime , 

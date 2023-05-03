@@ -1,3 +1,4 @@
+-- 7
 CREATE TABLE topic (
     topic_id Varchar (4) NOT NULL ,
     topic_name Varchar (50) , 

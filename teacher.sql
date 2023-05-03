@@ -1,3 +1,4 @@
+-- 1
 CREATE TABLE teacher (
     teacher_id Varchar (13) NOT NULL ,
     teacher_pass Varchar (30) ,

@@ -1,3 +1,4 @@
+-- 12
 CREATE TABLE assessment (
     topic_id Varchar (4) ,
     referee_id Varchar (13) ,

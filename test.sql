@@ -1,3 +1,4 @@
+-- 8
 CREATE TABLE test (
     test_id Varchar (4) NOT NULL ,
     score_book Int ,

@@ -1,3 +1,4 @@
+-- 4
 CREATE TABLE project (
     project_id Varchar (4) NOT NULL ,
     project_name Varchar (200) ,

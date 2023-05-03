@@ -1,3 +1,4 @@
+-- 6
 CREATE TABLE new (
     new_id Varchar (6) NOT NULL ,
     new_head Varchar (100) ,
