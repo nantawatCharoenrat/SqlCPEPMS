@@ -11,6 +11,8 @@ CREATE TABLE project (
     referee_id2 Varchar (13) ,
     group_id Varchar (4) ,
     boundary_path Mediumtext ,
+    year Int ,
+    term Int ,
     PRIMARY KEY (project_id) ,
     FOREIGN KEY (student_id1) REFERENCES student(student_id) ,
     FOREIGN KEY (student_id2) REFERENCES student(student_id) ,

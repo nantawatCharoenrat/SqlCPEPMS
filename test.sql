@@ -4,6 +4,7 @@ CREATE TABLE test (
     score_present Int ,
     score_product Int ,
     score Int ,
+    grade Varchar (2) ,
     project_id Varchar (4) ,
     PRIMARY KEY (test_id) , 
     FOREIGN KEY (project_id) REFERENCES project(project_id)

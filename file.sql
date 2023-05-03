@@ -3,6 +3,7 @@ CREATE TABLE file (
     file_date Datetime ,
     file_name Varchar (50) ,
     file_path Mediumtext ,
+    file¬_status Int ,
     file_chapter Int ,
     project_id Varchar (4) ,
     PRIMARY KEY (file_num) ,
