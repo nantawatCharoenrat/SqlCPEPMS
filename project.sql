@@ -1,8 +1,8 @@
 -- 4
 CREATE TABLE project (
-    project_id Varchar (4) NOT NULL ,
-    project_nameTH Varchar (200) ,
-    project_nameENG Varchar (200) ,
+    project_id Varchar (13) NOT NULL ,
+    project_nameTH Varchar (500) ,
+    project_nameENG Varchar (500) ,
     student_id1 Varchar (13) ,
     student_id2 Varchar (13) ,
     student_id3 Varchar (13) ,
