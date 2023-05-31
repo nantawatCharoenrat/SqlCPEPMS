@@ -1,4 +1,8 @@
 -- รองศาสตราจารย์วัฒนา พันธ์ลำเจียก
+-- admin
+insert into teacher
+    values ("0","0","รองศาสตราจารย์","วัฒนา","พันธ์ลำเจียก","null","null",0);
+-- teacher 
 insert into teacher
     values ("1","1","รองศาสตราจารย์","วัฒนา","พันธ์ลำเจียก","null","null",1);
 
