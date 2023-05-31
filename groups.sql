@@ -1,6 +1,5 @@
 -- 3
 CREATE TABLE groups (
-    group_id Varchar (4) NOT NULL ,
-    group_name Varchar (20) , 
+    group_id Varchar (10) NOT NULL 
     PRIMARY KEY (group_id)
 )
