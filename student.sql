@@ -1,4 +1,4 @@
--- 2
+-- 3
 CREATE TABLE student (
     student_id Varchar (13) NOT NULL ,
     student_password Text ,
