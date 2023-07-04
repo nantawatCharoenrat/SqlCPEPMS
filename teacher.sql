@@ -1,9 +1,10 @@
 -- 1
 CREATE TABLE teacher (
-    teacher_id Varchar (13) NOT NULL ,
-    teacher_pass Varchar (30) ,
+    teacher_id Int NOT NULL ,
+    teacher_username Varchar (50) ,
+    teacher_password Text ,
     position Varchar (50) ,
-    name Varchar (100) ,
+    firstname Varchar (100) ,
     lastname Varchar (100) ,
     email Varchar (100) ,
     phone Varchar (10) ,

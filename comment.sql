@@ -1,7 +1,7 @@
 -- 10
 CREATE TABLE comments (
-    teacher_id Varchar (13) ,
-    project_id Varchar (4) ,
+    teacher_id Int ,
+    project_id Varchar (8) ,
     comment Mediumtext ,
     comment_time Datetime ,
     comment_chapter Int ,
