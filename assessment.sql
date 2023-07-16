@@ -1,6 +1,6 @@
 -- 12
 CREATE TABLE assessment (
-    topic_id Varchar (4) ,
+    topic_id Varchar (10) ,
     referee_id Int ,
     project_id Varchar (8) ,
     score Int ,
