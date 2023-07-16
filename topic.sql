@@ -1,7 +1,7 @@
 -- 7
 CREATE TABLE topic (
-    topic_id Varchar (4) NOT NULL ,
-    topic_name Varchar (50) , 
+    topic_id Varchar (10) NOT NULL ,
+    topic_name Varchar (300) , 
     year Int , 
     term Int , 
     topic_weight Int ,
