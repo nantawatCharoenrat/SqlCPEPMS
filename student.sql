@@ -8,7 +8,7 @@ CREATE TABLE student (
     term Int ,
     email Varchar (100) ,
     phone Varchar (10) ,
-    group_id Varchar (10) ,
+    group_id Int ,
     PRIMARY KEY (student_id) ,
     FOREIGN KEY (group_id) REFERENCES groups(group_id) 
 )

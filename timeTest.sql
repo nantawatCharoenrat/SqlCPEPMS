@@ -1,6 +1,6 @@
--- 14
+-- 15 new
 CREATE TABLE timeTest (
-    timeTest_id Varchar (10) NOT NULL ,
+    timeTest_id Int NOT NULL AUTO_INCREMENT ,
     timeTest_date Date ,
     start_time Varchar (10) ,
     stop_time Varchar (10) ,

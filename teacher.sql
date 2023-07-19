@@ -1,6 +1,6 @@
--- 1
+-- 1 new
 CREATE TABLE teacher (
-    teacher_id Int NOT NULL ,
+    teacher_id Int NOT NULL AUTO_INCREMENT,
     teacher_username Varchar (50) ,
     teacher_password Text ,
     position Varchar (50) ,

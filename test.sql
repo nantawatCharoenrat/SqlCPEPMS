@@ -1,9 +1,6 @@
--- 8
+-- 9 new
 CREATE TABLE test (
-    test_id Varchar (4) NOT NULL ,
-    score_book Int ,
-    score_present Int ,
-    score_product Int ,
+    test_id Int NOT NULL AUTO_INCREMENT ,
     score Int ,
     grade Varchar (2) ,
     project_id Varchar (4) ,
