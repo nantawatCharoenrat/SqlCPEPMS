@@ -26,4 +26,4 @@ CREATE TABLE project (
     FOREIGN KEY (referee_id1) REFERENCES teacher(teacher_id) ,
     FOREIGN KEY (referee_id2) REFERENCES teacher(teacher_id) ,
     FOREIGN KEY (group_id) REFERENCES groups(group_id) 
-)AUTO_INCREMENT=0;
+)

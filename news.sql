@@ -5,4 +5,4 @@ CREATE TABLE news (
     news_text Mediumtext ,
     news_date Datetime ,
     PRIMARY KEY (news_id)
-)
+)AUTO_INCREMENT = 1;

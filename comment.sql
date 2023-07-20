@@ -9,4 +9,4 @@ CREATE TABLE comments (
     PRIMARY KEY (comment_id) ,
     FOREIGN KEY (teacher_id) REFERENCES teacher(teacher_id) ,
     FOREIGN KEY (project_id) REFERENCES project(project_id)
-) 
+) AUTO_INCREMENT = 1;

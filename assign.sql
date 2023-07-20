@@ -7,4 +7,4 @@ CREATE TABLE assign (
     project_id Varchar (8) ,
     PRIMARY KEY (assign_id) , 
     FOREIGN KEY (project_id) REFERENCES project(project_id)
-) 
+) AUTO_INCREMENT = 1;

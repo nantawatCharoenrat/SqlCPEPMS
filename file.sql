@@ -9,4 +9,4 @@ CREATE TABLE file (
     project_id Varchar (8) ,
     PRIMARY KEY (file_id) ,
     FOREIGN KEY (project_id) REFERENCES project(project_id)
-)
+)AUTO_INCREMENT = 1;

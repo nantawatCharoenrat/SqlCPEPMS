@@ -9,4 +9,4 @@ CREATE TABLE assessment (
     FOREIGN KEY (project_id) REFERENCES project(project_id) ,
     FOREIGN KEY (referee_id) REFERENCES teacher(teacher_id) ,
     FOREIGN KEY (topic_id) REFERENCES topic(topic_id) 
-)
+)AUTO_INCREMENT = 1;

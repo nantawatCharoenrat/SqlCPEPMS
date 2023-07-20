@@ -10,4 +10,4 @@ CREATE TABLE teacher (
     phone Varchar (10) ,
     level_id Int ,
     PRIMARY KEY (teacher_id)
-)
+)AUTO_INCREMENT = 1;

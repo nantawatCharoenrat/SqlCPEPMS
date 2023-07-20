@@ -7,4 +7,4 @@ CREATE TABLE document (
     year Int ,
     term Int ,
     PRIMARY KEY (document_id) 
-)
+)AUTO_INCREMENT = 1;

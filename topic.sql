@@ -8,4 +8,4 @@ CREATE TABLE topic (
     topic_section_id Int ,
     PRIMARY KEY (topic_id) ,
     FOREIGN KEY (topic_section_id) REFERENCES topicSection(topic_section_id)
-)
+)AUTO_INCREMENT = 1;
