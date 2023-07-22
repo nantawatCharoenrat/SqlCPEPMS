@@ -40,7 +40,7 @@ insert into teacher(`teacher_username`, `teacher_password`, `position`, `firstna
 
 -- รองศาสตราจารย์นชิรัตน์ ราชบุรี
 insert into teacher(`teacher_username`, `teacher_password`, `position`, `firstname`, `lastname`, `level_id`)
-    values ("11","11","รองศาสตราจารย์","นชิรัตน์","ราชบุรี",1);
+    values ("11","11","ผู้ช่วยศาสตราจารย์","นชิรัตน์","ราชบุรี",1);
 
 -- ผู้ช่วยศาสตราจารย์สมรรถชัย จันทรัตน์
 insert into teacher(`teacher_username`, `teacher_password`, `position`, `firstname`, `lastname`, `level_id`)
