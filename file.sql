@@ -2,7 +2,7 @@
 CREATE TABLE file (
     file_id Int NOT NULL AUTO_INCREMENT ,
     file_date Datetime ,
-    file_name Varchar (100) ,
+    -- file_name Varchar (100) ,
     file_path Mediumtext ,
     file_status Int ,
     file_chapter Int ,
