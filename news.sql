@@ -4,5 +4,7 @@ CREATE TABLE news (
     news_head Varchar (100) ,
     news_text Mediumtext ,
     news_date Datetime ,
+    year Int ,
+    term Int ,
     PRIMARY KEY (news_id)
 )AUTO_INCREMENT = 1;
