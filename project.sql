@@ -13,7 +13,6 @@ CREATE TABLE project (
     referee_id2 Int ,
     group_id Int ,
     boundary_path Mediumtext ,
-    grade Varchar (2) ,
     year Int ,
     term Int ,
     PRIMARY KEY (project_id) ,
