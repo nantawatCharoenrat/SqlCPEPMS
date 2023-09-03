@@ -3,6 +3,7 @@ CREATE TABLE topic (
     topic_id Int NOT NULL AUTO_INCREMENT ,
     topic_name Varchar (300) , 
     topic_section_id Int ,
+    topic_level Int ,
     topic_status Int ,
     PRIMARY KEY (topic_id) ,
     FOREIGN KEY (topic_section_id) REFERENCES topicSection(topic_section_id)
