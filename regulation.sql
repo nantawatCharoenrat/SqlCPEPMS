@@ -1,7 +1,7 @@
 -- 16
 CREATE TABLE regulation (
     regulation_id Int NOT NULL AUTO_INCREMENT ,
-    regulation_head Varchar (350) ,
+    regulationFile_path	Mediumtext	,	
     regulation_text Mediumtext ,
     year Int ,
     term Int ,
