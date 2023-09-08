@@ -3,7 +3,7 @@ CREATE TABLE test (
     test_id Int NOT NULL AUTO_INCREMENT ,
     score Int ,
     grade Varchar (2) ,
-    project_id Varchar (4) ,
+    student_id Varchar (13) ,
     PRIMARY KEY (test_id) , 
-    FOREIGN KEY (project_id) REFERENCES project(project_id)
+    FOREIGN KEY (student_id) REFERENCES student(student_id)
 )AUTO_INCREMENT = 1;
