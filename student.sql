@@ -10,6 +10,7 @@ CREATE TABLE student (
     phone Varchar (10) ,
     group_id Int ,
     grade Varchar (2) ,
+    score FLOAT ,
     PRIMARY KEY (student_id) ,
     FOREIGN KEY (group_id) REFERENCES groups(group_id) 
 )
