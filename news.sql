@@ -1,7 +1,7 @@
 -- 6 new
 CREATE TABLE news (
     news_id Int NOT NULL AUTO_INCREMENT ,
-    news_head Varchar (300) ,
+    news_head Varchar (150) ,
     news_text Mediumtext ,
     news_date Datetime ,
     year Int ,

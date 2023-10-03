@@ -1,7 +1,7 @@
 -- 14 new
 CREATE TABLE appoint (
     appoint_id Int NOT NULL AUTO_INCREMENT ,
-    title Varchar (300) ,
+    title Varchar (150) ,
     description Mediumtext ,
     appoint_date Datetime ,
     group_id Int ,

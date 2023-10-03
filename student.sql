@@ -6,7 +6,7 @@ CREATE TABLE student (
     lastname Varchar (150) ,
     year Int ,
     term Int ,
-    email Varchar (150) ,
+    email Varchar (100) ,
     phone Varchar (10) ,
     group_id Int ,
     grade Varchar (2) ,

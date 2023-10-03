@@ -1,7 +1,7 @@
 -- 8 new
 CREATE TABLE topic (
     topic_id Int NOT NULL AUTO_INCREMENT ,
-    topic_name Varchar (300) , 
+    topic_name Varchar (100) , 
     topic_section_id Int ,
     topic_status Int ,
     PRIMARY KEY (topic_id) ,
